@@ -16,7 +16,7 @@ async function list(req, res){
 
 async function create(req, res){
 
-   // const{ title, description, value } = req.body;
+   const{ title, description, value } = req.body;
 
     console.log(req.body);
 
